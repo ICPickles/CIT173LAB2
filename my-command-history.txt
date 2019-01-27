@@ -1,0 +1,35 @@
+    1  mkdir CIT173_Lab2
+    2  echo $Shell
+    3  echo $SHELL
+    4  pwd $SHELL
+    5  echo $0
+    6  set $SHELL
+    7  rm set $SHELL
+    8  echo $SHELL
+    9  type $SHELL
+   10  pwd $0
+   11  type bash
+   12  type $SHELL
+   13  cd ~/
+   14  git clone https://github.com/RenoTechonologyAcademy/CIT_173_Lab_Files.git
+   15  git clone https://github.com/RenoTechnologyAcademy/CIT_173_Lab_Files.git
+   16  git clone https://github.com/RenoTechnologyAcademy/CIT_173_Lab2_Files.git
+   17  git clone https://github.com/RenoTechnologyAcademy/CIT173_Lab2_Files.git
+   18  cat ~/CIT_Lab2_Files/phonebook1.txt ~/CIT173_Lab2_Files/phonebook2.txt > ~/CIT173_Lab2/my-phonebook.txt
+   19  ls
+   20  ls-l
+   21  ls -l
+   22  env CIT173_Lab2_Files
+   23  cat ~/CIT173_Lab2_Files/phonebook1.txt
+   24  cat ~/CIT173_Lab2_Files/phonebook2.txt
+   25  cat ~/CIT173_Lab2_Files/phonebook1.txt ~/CIT173_Lab2_Files/phonebook2.txt > ~/CIT173_Lab2/my-phonebook.txt
+   26  wc ~/CIT173_Lab2/my-phonebook.txt 
+   27  cat ~/CIT173_Lab2/my-phonebook.txt |less
+   28  cat ~/CIT173_Lab2_Files/phonelisting1.txt ~/CIT173_Lab2_Files/phonelisting2.txt > ~/CIT173_Lab2/my-phonelisting.txt
+   29  tac ~/CIT173_Lab2/my-phonelisting.txt > ~/CIT173_Lab2/my-phonebook-reversed.txt
+   30  join ~/CIT173_Lab2/my-phonebook.txt ~/CIT173_Lab2/my-phonelisting.txt > ~/CIT173_Lab2/my-joined-phonebook.txt
+   31  nl ~/CIT173_Lab2/my-joined-phonebook.txt > ~/CIT173_Lab2/my-numbered-phonebook.txt
+   32  head -5 ~/CIT173_Lab2/my-phonebook.txt 
+   33  head -5 ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-head-phonebook.txt
+   34  tail -5 ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-tail-phonebook.txt
+   35  history > ~/CIT173_Lab2/my-command-history.txt
